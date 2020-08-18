@@ -11,10 +11,10 @@ All dependencies for the testing code can be installed by running "conda env cre
 
 The training code also requries that OpenCV is installed.
 
-##Testing
+## Testing
 To reconstruct the experimentally captured data using a pretrained model run `DemoScript.sh`. Results will be saved in the "Reconstructions" directory. 
 
-##Training
+## Training
 Before training, first follow the instructions in the supplement of [A] to download several thousand HDR images from various sources. A small subset of this dataset can be downloaded by running webscraper.py in the "utils" directory. The downloaded HDR video files can be decimated by running "SaveEvery10thFrame.py". Be sure to backup the data before running this function.
 
 Next compile the preprocessing function "virtualcamera.cpp" by running 
